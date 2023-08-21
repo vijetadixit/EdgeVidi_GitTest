@@ -44,9 +44,8 @@
   <value name="retry_max">0</value>
   <value name="retry_interval">0</value>
   <record name="node_hints" javaclass="com.wm.util.Values">
-    <value name="createdBy">siqaadmin</value>
-    <value name="createdDate">1692626106764</value>
-    <value name="lastModifiedDate">1692626106764</value>
+    <value name="lastModifiedBy">siqaadmin</value>
+    <value name="lastModifiedDate">1692626123376</value>
     <record name="edgeServer" javaclass="com.wm.util.Values">
       <value name="id">bdba020ee77f4f8796656b810d514f9e</value>
       <null name="group"/>
@@ -67,6 +66,10 @@
           <value name="serviceName">pub.string:toUpper</value>
           <value name="transformerSupport">true</value>
         </record>
+        <number name="ui_step_index" type="Long">1</number>
+        <number name="nodeIndex" type="Long">0</number>
+        <null name="mapSet"/>
+        <null name="outputMapSet"/>
       </record>
     </record>
   </record>
